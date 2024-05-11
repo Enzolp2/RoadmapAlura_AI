@@ -1,0 +1,412 @@
+{
+	"id": 459971,
+	"code": "ciberseguranca",
+	"kind": "DEGREE",
+	"kindDisplayName": "Formação",
+	"kindSlugDisplayName": "formacao",
+	"situation": "PUBLISHED",
+	"title": "Cibersegurança",
+	"metaTitle": "Domine a segurança de aplicações web, aprendendo a combater ataques, proteger dados e utilizar ferramentas como Kali Linux e pfSense.",
+	"subtitle": "Proteja suas aplicações de diferentes ataques e ameaças!",
+	"description": {
+		"id": 506849,
+		"title": "Formação Cibersegurança",
+		"description": "<p>Manter aplicações seguras na Web é uma tarefa bem difícil atualmente. Existem diversos ataques que podem atingi-las e, com o passar do tempo, vulnerabilidades vão surgindo e sendo descobertas. Dessa forma, cresce cada vez mais a necessidade de pessoas especializadas em defender estes sistemas.</p>\r\n<p>Na Formação Segurança de aplicações, você vai aprender como se defender de ataques diversos, proteger suas aplicações, conhecer suas possíveis vulnerabilidades e salvar os dados do usuário de forma mais segura.</p>\r\n<p>Você também vai entender como evitar ataques de força bruta, criar ambientes protegidos utilizando a virtualização, conhecer ferramentas do Kali Linux e criar um firewall com pfSense e iptables.</p>\r\n<p>Ao finalizar esta Formação, você será capaz de defender suas aplicações.</p>\r\n<p>Se você quiser se especializar em Blue team/ Segurança Defensiva ou <a href=\"https://cursos.alura.com.br/formacao-seguranca-ofensiva\">Red team/ Segurança Ofensiva</a>, sugerimos que você faça as formações específicas de cada assunto.</p>\r\n<p>Caso queira continuar seus estudos com a versão anterior, Formação <strong>Segurança de aplicações</strong>, clique <a href=\"https://cursos.alura.com.br/formacao-seguranca-de-aplicacoes\">aqui</a>.</p>\r\n",
+		"position": null
+	},
+	"steps": [
+		{
+			"id": 478286,
+			"title": "Identificação de vulnerabilidades e testes de validação de segurança web",
+			"description": "<p>Neste primeiro momento, você vai conhecer as vulnerabilidades que podem existir em aplicações web, utilizar ferramentas de teste de intrusão ou pentest, aprender a realizar alguns ataques em sistemas web, conhecer alguns termos da área de Segurança Ofensiva e vai utilizar um laboratório de testes para encontrar vulnerabilidades.</p>",
+			"contents": [
+				{
+					"id": 8410110,
+					"kind": "POST",
+					"title": "O que é cibersegurança: práticas e as equipes de segurança | Alura",
+					"url": "https://www.alura.com.br/artigos/o-que-e-ciberseguranca-praticas-equipes-de-seguranca",
+					"position": 1,
+					"color": "#d3d3d3",
+					"slug": null,
+					"categoryUrl": "",
+					"icon": null,
+					"courseSlug": "",
+					"course": false
+				},
+				{
+					"id": 8410111,
+					"kind": "VIDEO",
+					"title": "Guia de Carreira: Cibersegurança - YouTube",
+					"url": "https://www.youtube.com/watch?v=12UWE8N0s1g",
+					"position": 2,
+					"color": "#d3d3d3",
+					"slug": null,
+					"categoryUrl": "",
+					"icon": null,
+					"courseSlug": "",
+					"course": false
+				},
+				{
+					"id": 8410112,
+					"kind": "ALURA_PLUS",
+					"title": "Hacking Ético: o que é e onde surgiu",
+					"url": "/extra/alura-mais/hacking-etico-o-que-e-e-onde-surgiu-c1390",
+					"position": 3,
+					"color": "#d3d3d3",
+					"slug": "hacking-etico-o-que-e-e-onde-surgiu-c1390",
+					"categoryUrl": "",
+					"icon": null,
+					"courseSlug": "",
+					"course": false
+				},
+				{
+					"id": 8410113,
+					"kind": "COURSE",
+					"title": "Pentest: explorando vulnerabilidades em aplicações web",
+					"url": "https://www.alura.com.br/curso-online-pentest-explorando-vulnerabilidades-aplicacoes-web",
+					"position": 4,
+					"color": "#f16165",
+					"slug": "pentest-explorando-vulnerabilidades-aplicacoes-web",
+					"categoryUrl": "",
+					"icon": null,
+					"courseSlug": "pentest-explorando-vulnerabilidades-aplicacoes-web",
+					"course": true
+				}
+			],
+			"position": 1,
+			"empty": false,
+			"descriptionText": {
+				"raw": "<p>Neste primeiro momento, você vai conhecer as vulnerabilidades que podem existir em aplicações web, utilizar ferramentas de teste de intrusão ou pentest, aprender a realizar alguns ataques em sistemas web, conhecer alguns termos da área de Segurança Ofensiva e vai utilizar um laboratório de testes para encontrar vulnerabilidades.</p>",
+				"empty": false,
+				"valid": true
+			},
+			"courses": [
+				{
+					"id": 8410113,
+					"kind": "COURSE",
+					"title": "Pentest: explorando vulnerabilidades em aplicações web",
+					"url": "https://www.alura.com.br/curso-online-pentest-explorando-vulnerabilidades-aplicacoes-web",
+					"position": 4,
+					"color": "#f16165",
+					"slug": "pentest-explorando-vulnerabilidades-aplicacoes-web",
+					"categoryUrl": "",
+					"icon": null,
+					"courseSlug": "pentest-explorando-vulnerabilidades-aplicacoes-web",
+					"course": true
+				}
+			]
+		},
+		{
+			"id": 478291,
+			"title": "Segurança de Redes",
+			"description": "<p>Nesta parte da Formação, você se aprofundará em Segurança de Redes. Você vai aprender a criar um firewall para proteger sua rede, conhecer as vulnerabilidades de servidores e clientes e entender quais ataques podem ser realizados do lado do servidor.</p>",
+			"contents": [
+				{
+					"id": 5173302,
+					"kind": "COURSE",
+					"title": "Segurança de rede: firewall, WAF e SIEM",
+					"url": "https://www.alura.com.br/curso-online-seguranca-rede-firewall-waf-siem",
+					"position": 1,
+					"color": "#f16165",
+					"slug": "seguranca-rede-firewall-waf-siem",
+					"categoryUrl": "",
+					"icon": null,
+					"courseSlug": "seguranca-rede-firewall-waf-siem",
+					"course": true
+				},
+				{
+					"id": 5173303,
+					"kind": "COURSE",
+					"title": "Segurança de rede: proxy reverso, SSH e DNS",
+					"url": "https://www.alura.com.br/curso-online-seguranca-rede-proxy-reverso-ssh-dns",
+					"position": 2,
+					"color": "#f16165",
+					"slug": "seguranca-rede-proxy-reverso-ssh-dns",
+					"categoryUrl": "",
+					"icon": null,
+					"courseSlug": "seguranca-rede-proxy-reverso-ssh-dns",
+					"course": true
+				}
+			],
+			"position": 2,
+			"empty": false,
+			"descriptionText": {
+				"raw": "<p>Nesta parte da Formação, você se aprofundará em Segurança de Redes. Você vai aprender a criar um firewall para proteger sua rede, conhecer as vulnerabilidades de servidores e clientes e entender quais ataques podem ser realizados do lado do servidor.</p>",
+				"empty": false,
+				"valid": true
+			},
+			"courses": [
+				{
+					"id": 5173302,
+					"kind": "COURSE",
+					"title": "Segurança de rede: firewall, WAF e SIEM",
+					"url": "https://www.alura.com.br/curso-online-seguranca-rede-firewall-waf-siem",
+					"position": 1,
+					"color": "#f16165",
+					"slug": "seguranca-rede-firewall-waf-siem",
+					"categoryUrl": "",
+					"icon": null,
+					"courseSlug": "seguranca-rede-firewall-waf-siem",
+					"course": true
+				},
+				{
+					"id": 5173303,
+					"kind": "COURSE",
+					"title": "Segurança de rede: proxy reverso, SSH e DNS",
+					"url": "https://www.alura.com.br/curso-online-seguranca-rede-proxy-reverso-ssh-dns",
+					"position": 2,
+					"color": "#f16165",
+					"slug": "seguranca-rede-proxy-reverso-ssh-dns",
+					"categoryUrl": "",
+					"icon": null,
+					"courseSlug": "seguranca-rede-proxy-reverso-ssh-dns",
+					"course": true
+				}
+			]
+		},
+		{
+			"id": 478293,
+			"title": "Desenvolvimento seguro",
+			"description": "<p>No último passo da formação, você vai aprender a realizar modelagem de ameaças para identificar riscos enquanto o software é desenvolvido. Também vai aprender a aplicar ferramentas de segurança em aplicações Java. </p>",
+			"contents": [
+				{
+					"id": 8551845,
+					"kind": "PODCAST_INTERNAL",
+					"title": "Segurança da Informação: muito além do Telegram – Hipsters #159",
+					"url": "/extra/hipsterstech/seguranca-da-informacao-muito-alem-do-telegram-hipsters-159-a414",
+					"position": 1,
+					"color": "#d3d3d3",
+					"slug": "seguranca-da-informacao-muito-alem-do-telegram-hipsters-159-a414",
+					"categoryUrl": "",
+					"icon": null,
+					"courseSlug": "",
+					"course": false
+				},
+				{
+					"id": 8551846,
+					"kind": "COURSE",
+					"title": "Modelagem de ameaças: identifique riscos na concepção do software",
+					"url": "https://www.alura.com.br/curso-online-modelagem-ameacas-identifique-riscos-concepcao-software",
+					"position": 2,
+					"color": "#f16165",
+					"slug": "modelagem-ameacas-identifique-riscos-concepcao-software",
+					"categoryUrl": "",
+					"icon": null,
+					"courseSlug": "modelagem-ameacas-identifique-riscos-concepcao-software",
+					"course": true
+				},
+				{
+					"id": 8551847,
+					"kind": "COURSE",
+					"title": "Segurança web em Java: evitando SQL Injection, força bruta e outros ataques",
+					"url": "https://www.alura.com.br/curso-online-seguranca-web-em-java-parte-1",
+					"position": 3,
+					"color": "#00c86f",
+					"slug": "seguranca-web-em-java-parte-1",
+					"categoryUrl": "",
+					"icon": null,
+					"courseSlug": "seguranca-web-em-java-parte-1",
+					"course": true
+				},
+				{
+					"id": 8551848,
+					"kind": "COURSE",
+					"title": "Segurança web em Java parte 2: XSS, Mass Assignment e Uploads de arquivos!",
+					"url": "https://www.alura.com.br/curso-online-seguranca-web-em-java-parte-2",
+					"position": 4,
+					"color": "#00c86f",
+					"slug": "seguranca-web-em-java-parte-2",
+					"categoryUrl": "",
+					"icon": null,
+					"courseSlug": "seguranca-web-em-java-parte-2",
+					"course": true
+				},
+				{
+					"id": 8551849,
+					"kind": "CASES",
+					"title": "Zup e a solução de segurança para a experiência de devs",
+					"url": "/extra/cases/zup-e-a-solucao-de-seguranca-para-a-experiencia-de-devs-z1288",
+					"position": 5,
+					"color": "#d3d3d3",
+					"slug": "zup-e-a-solucao-de-seguranca-para-a-experiencia-de-devs-z1288",
+					"categoryUrl": "",
+					"icon": null,
+					"courseSlug": "",
+					"course": false
+				}
+			],
+			"position": 3,
+			"empty": false,
+			"descriptionText": {
+				"raw": "<p>No último passo da formação, você vai aprender a realizar modelagem de ameaças para identificar riscos enquanto o software é desenvolvido. Também vai aprender a aplicar ferramentas de segurança em aplicações Java. </p>",
+				"empty": false,
+				"valid": true
+			},
+			"courses": [
+				{
+					"id": 8551846,
+					"kind": "COURSE",
+					"title": "Modelagem de ameaças: identifique riscos na concepção do software",
+					"url": "https://www.alura.com.br/curso-online-modelagem-ameacas-identifique-riscos-concepcao-software",
+					"position": 2,
+					"color": "#f16165",
+					"slug": "modelagem-ameacas-identifique-riscos-concepcao-software",
+					"categoryUrl": "",
+					"icon": null,
+					"courseSlug": "modelagem-ameacas-identifique-riscos-concepcao-software",
+					"course": true
+				},
+				{
+					"id": 8551847,
+					"kind": "COURSE",
+					"title": "Segurança web em Java: evitando SQL Injection, força bruta e outros ataques",
+					"url": "https://www.alura.com.br/curso-online-seguranca-web-em-java-parte-1",
+					"position": 3,
+					"color": "#00c86f",
+					"slug": "seguranca-web-em-java-parte-1",
+					"categoryUrl": "",
+					"icon": null,
+					"courseSlug": "seguranca-web-em-java-parte-1",
+					"course": true
+				},
+				{
+					"id": 8551848,
+					"kind": "COURSE",
+					"title": "Segurança web em Java parte 2: XSS, Mass Assignment e Uploads de arquivos!",
+					"url": "https://www.alura.com.br/curso-online-seguranca-web-em-java-parte-2",
+					"position": 4,
+					"color": "#00c86f",
+					"slug": "seguranca-web-em-java-parte-2",
+					"categoryUrl": "",
+					"icon": null,
+					"courseSlug": "seguranca-web-em-java-parte-2",
+					"course": true
+				}
+			]
+		}
+	],
+	"instructors": [
+		{
+			"email": "rafael.nercessian@alura.com.br",
+			"linkedin": "https://www.linkedin.com/in/rafael-silva-nercessian-18226944/",
+			"username": "rafanercessian",
+			"photo": null,
+			"photoPath": "https://www.gravatar.com/avatar/c7672d5e84c12da810ab46c4d46487bf.png?r=PG&size=60x60&date=2024-05-11&d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_r.png",
+			"avatarUrl": null,
+			"github": null,
+			"nome": "Rafael Silva Nercessian",
+			"fotos": {
+				"50": "https://www.gravatar.com/avatar/c7672d5e84c12da810ab46c4d46487bf.png?r=PG&size=50x50&date=2024-05-11&d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_r.png",
+				"100": "https://www.gravatar.com/avatar/c7672d5e84c12da810ab46c4d46487bf.png?r=PG&size=100x100&date=2024-05-11&d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_r.png",
+				"200": "https://www.gravatar.com/avatar/c7672d5e84c12da810ab46c4d46487bf.png?r=PG&size=200x200&date=2024-05-11&d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_r.png"
+			},
+			"sobre": "Rafael é formado em engenharia elétrica com ênfase em telecomunicações, trabalhou quatro anos na parte de infraestrutura e possui certificação Cisco CCNA 200-125, também já trabalhou com Java, PHP, AWS, Wordpress, SugarCRM, React Native etc. Morou na Nova Zelândia trabalhando como desenvolvedor e sonha um dia morar em Seoul, na Coreia do Sul."
+		},
+		{
+			"email": "millanandanet14@gmail.com",
+			"linkedin": "https://www.linkedin.com/in/camila-fernanda-machado-alves/",
+			"username": "camila-alves3",
+			"photo": null,
+			"photoPath": "https://cdn2.gnarususercontent.com.br/1/787994/55949115-2199-4195-af10-f9b5688329f2.jpg?width=60&height=60&aspect_ratio=1:1",
+			"avatarUrl": "https://cdn2.gnarususercontent.com.br/1/787994/55949115-2199-4195-af10-f9b5688329f2.jpg",
+			"github": "https://github.com/camilafernanda",
+			"nome": "Camila Fernanda Alves",
+			"fotos": {
+				"50": "https://cdn2.gnarususercontent.com.br/1/787994/55949115-2199-4195-af10-f9b5688329f2.jpg?width=50&height=50&aspect_ratio=1:1",
+				"100": "https://cdn2.gnarususercontent.com.br/1/787994/55949115-2199-4195-af10-f9b5688329f2.jpg?width=100&height=100&aspect_ratio=1:1",
+				"200": "https://cdn2.gnarususercontent.com.br/1/787994/55949115-2199-4195-af10-f9b5688329f2.jpg?width=200&height=200&aspect_ratio=1:1"
+			},
+			"sobre": "Sou instrutora na Alura e graduanda em engenheira pela UFU. Atuei no Scuba Team e já realizei algumas monitorias de Física, Circuitos Elétricos e até mesmo Processamento de Sinais. Na Alura, tenho o prazer de compartilhar meus conhecimentos, ajudar pessoas a alcançarem seus objetivos de aprendizado e aprimorar constantemente como instrutora, com foco no desenvolvimento de conteúdos relacionados a DevOps/Segurança. No tempo livre, sou apaixonada pelos jogos da Nintendo e as vezes, alguns jogos FPS."
+		},
+		{
+			"email": "ben-hur@outlook.com",
+			"linkedin": "https://www.linkedin.com/in/benhurott/",
+			"username": "benhurott",
+			"photo": null,
+			"photoPath": "https://www.gravatar.com/avatar/24e3e1df6f877ee2043428523e4de992.png?r=PG&size=60x60&date=2024-05-11&d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_b.png",
+			"avatarUrl": null,
+			"github": null,
+			"nome": "Ben-Hur Santos Ott",
+			"fotos": {
+				"50": "https://www.gravatar.com/avatar/24e3e1df6f877ee2043428523e4de992.png?r=PG&size=50x50&date=2024-05-11&d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_b.png",
+				"100": "https://www.gravatar.com/avatar/24e3e1df6f877ee2043428523e4de992.png?r=PG&size=100x100&date=2024-05-11&d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_b.png",
+				"200": "https://www.gravatar.com/avatar/24e3e1df6f877ee2043428523e4de992.png?r=PG&size=200x200&date=2024-05-11&d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_b.png"
+			},
+			"sobre": "Com mais de 10 anos na area de desenvolvimento de software, estive a frente de times de tecnologia no ponta a ponta de projetos. Como liderança técnica, passei por grandes clientes bancários e varejos.\r\n\r\nHoje sou dedicado a área de desenvolvimento seguro, apoiando times, contribuindo para formações dos profissionais e implementando as práticas de segurança no desenvolvimento de sistemas corporativos."
+		}
+	],
+	"conclusion": {
+		"id": 506862,
+		"title": "",
+		"description": " ",
+		"position": null
+	},
+	"estimatedTimeToFinish": 56,
+	"color": "#f16165",
+	"metaDescription": {
+		"raw": "Proteja suas aplicações de diferentes ataques e ameaças!",
+		"empty": false,
+		"valid": true
+	},
+	"testimonies": [
+		{
+			"texto": "A didática empregada no curso e, também o conteúdo explorado são muito bons. O problema, que detectei no curso, foram os inúmeros erros apresentados no projeto obrigando-nos a instalar as versões mais antigas das ferramentas e, ainda assim, realizar correções para fazer com que a aplicação funcione corretamente. Isso provoca perda do foco no conteúdo do curso para solucionar esses problema.\r\nA rede corporativa, que implica em políticas de segurança restritivas, precisam ser consideradas no suporte necessário para solução de problemas. Muitas vezes, essas restrições nos trazem problemas de acesso que não encontram respostas no material do curso. Tive que deixar a rede corporativa para finalizar o curso, a partir da introdução do Google ReCAPTCHA na aplicação e, na aula seguinte, enfrentei problema relacionado ao bloqueio do firewall do Windows no acesso ao host a partir da máquina virtual.\r\n\r\nUfa!",
+			"aluno": "SUELY SILVEIRA PASSOS",
+			"fotos": {
+				"50": "https://www.gravatar.com/avatar/d57cb54517c1621ef926f7f8bfa418ea.png?r=PG&size=50x50&date=2024-05-11&d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_user.png",
+				"100": "https://www.gravatar.com/avatar/d57cb54517c1621ef926f7f8bfa418ea.png?r=PG&size=100x100&date=2024-05-11&d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_user.png",
+				"200": "https://www.gravatar.com/avatar/d57cb54517c1621ef926f7f8bfa418ea.png?r=PG&size=200x200&date=2024-05-11&d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_user.png"
+			},
+			"data_criacao": "2021-06-28",
+			"curso": {
+				"urlName": "seguranca-web-em-java-parte-1",
+				"id": 703,
+				"slug": "seguranca-web-em-java-parte-1",
+				"nome": "Segurança web em Java: evitando SQL Injection, força bruta e outros ataques",
+				"quantidade_aulas": 0,
+				"minutos_video": 0,
+				"tempo_estimado": 8,
+				"chamadas": [],
+				"quantidade_musicas": 0,
+				"data_publicacao": null,
+				"highlightedExtraField": null
+			},
+			"nota_nps": 10
+		},
+		{
+			"texto": "acredito que poderia ser abordado melhor as formas de validar as entradas de campo texto.. talvez usando o owasp java project",
+			"aluno": "Marcelo Madeira",
+			"fotos": {
+				"50": "https://www.gravatar.com/avatar/098cc56bbfcce18bb2f590dfff166276.png?r=PG&size=50x50&date=2024-05-11&d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_user.png",
+				"100": "https://www.gravatar.com/avatar/098cc56bbfcce18bb2f590dfff166276.png?r=PG&size=100x100&date=2024-05-11&d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_user.png",
+				"200": "https://www.gravatar.com/avatar/098cc56bbfcce18bb2f590dfff166276.png?r=PG&size=200x200&date=2024-05-11&d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_user.png"
+			},
+			"data_criacao": "2021-07-19",
+			"curso": {
+				"urlName": "seguranca-web-em-java-parte-2",
+				"id": 713,
+				"slug": "seguranca-web-em-java-parte-2",
+				"nome": "Segurança web em Java parte 2: XSS, Mass Assignment e Uploads de arquivos!",
+				"quantidade_aulas": 0,
+				"minutos_video": 0,
+				"tempo_estimado": 6,
+				"chamadas": [],
+				"quantidade_musicas": 0,
+				"data_publicacao": null,
+				"highlightedExtraField": null
+			},
+			"nota_nps": 9
+		}
+	],
+	"videoUrl": "",
+	"criteoId": "degree-459971",
+	"categoryUrlName": "devops",
+	"categoryName": "DevOps",
+	"totalPublishedCourses": 6,
+	"totalPodcasts": 1,
+	"totalPosts": 1,
+	"totalVideos": 2,
+	"partners": [],
+	"earlyAccess": false,
+	"requirements": []
+}

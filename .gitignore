@@ -1,0 +1,40 @@
+# Arquivos de sistema e cache
+.vscode/
+__pycache__/
+*.pyc
+
+# Ambiente virtual Python
+venv/
+.env
+
+# Arquivos de configuração sensíveis
+config.json
+credentials.json
+
+# Arquivos de log
+*.log
+
+# Arquivos de backup
+*.bak
+
+# Arquivos de compilação
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Arquivos de build de JavaScript
+/node_modules
+/build
+
+# Outros arquivos temporários ou gerados automaticamente
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Documentos de uso do Projeto
+docs/
+
+# Arquivos banco de dados
+*.db

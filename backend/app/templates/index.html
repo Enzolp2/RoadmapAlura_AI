@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+{% block title %}RoadMapAlura{% endblock %}
+
+{% block content %}
+
+    <div class="container d-flex flex-column align-items-center vh-100">
+        <!-- Row 1: Título do projeto -->
+        <div id="home_section">
+            <div class="row mt-5">
+                <div class="col">
+                    <h2 class="text-color-dark text-center">RoadMapAlura</h2>
+                </div>
+            </div>
+            <!-- Row 2: Texto instrutivo -->
+            <div class="row mt-2">
+                <div class="col">
+                    <p class="text-color-dark text-center">O RoadMapAlura é como ter um guia pessoal de aprendizado em tecnologia! 🚀 Você compartilha seus objetivos, e ele constrói uma rota de cursos adaptada para você, tudo isso com o conteúdo de alta qualidade da Alura! 🎓 Imagine um mapa de conhecimento, onde cada curso é uma parada essencial no caminho para alcançar seus objetivos profissionais ou pessoais. Com o RoadMapAlura, você está sempre no caminho certo para dominar as tecnologias que deseja! 🛤️💡</p>
+                </div>
+            </div>
+            <!-- Row 3: Input de texto -->
+            <div class="row mt-2">
+                <div class="col">
+                    <span>Conte-nos sobre você 🚀💻</span>
+                    <textarea class="form-control mt-3" aria-label="Conte-nos sobre você" id="user_prompt"></textarea>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center align-items-center my-4">
+                <button class="generate-button" id="user_prompt_buton">
+                    <span class="px-1">Entrar na Jornada</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-stars" viewBox="0 0 16 16">
+                        <path d="M7.657 6.247c.11-.33.576-.33.686 0l.645 1.937a2.89 2.89 0 0 0 1.829 1.828l1.936.645c.33.11.33.576 0 .686l-1.937.645a2.89 2.89 0 0 0-1.828 1.829l-.645 1.936a.361.361 0 0 1-.686 0l-.645-1.937a2.89 2.89 0 0 0-1.828-1.828l-1.937-.645a.361.361 0 0 1 0-.686l1.937-.645a2.89 2.89 0 0 0 1.828-1.828zM3.794 1.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387A1.73 1.73 0 0 0 4.593 5.69l-.387 1.162a.217.217 0 0 1-.412 0L3.407 5.69A1.73 1.73 0 0 0 2.31 4.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387A1.73 1.73 0 0 0 3.407 2.31zM10.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732L9.1 2.137a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/>
+                      </svg>
+                </button>
+            </div>
+
+              <!-- Indicador de carregamento -->
+            <div id="loading" class="text-center text-color-dark" style="display: none;">
+                <span class="spinner-grow spinner-grow-sm" aria-hidden="true"></span>
+                <span class="sr-only">Carregando...</span>
+            </div>
+
+            <svg class="editorial"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 24 150 28 "
+            preserveAspectRatio="none">
+           <defs>
+           <path id="gentle-wave"
+           d="M-160 44c30 0 
+               58-18 88-18s
+               58 18 88 18 
+               58-18 88-18 
+               58 18 88 18
+               v44h-352z" />
+           </defs>
+           <g class="parallax1">
+           <use xlink:href="#gentle-wave" x="50" y="3" fill="#f461c1"/>
+           </g>
+               <g class="parallax2">
+           <use xlink:href="#gentle-wave" x="50" y="0" fill="#4579e2"/>
+               </g>
+               <g class="parallax3">
+           <use xlink:href="#gentle-wave" x="50" y="9" fill="#2bfdbe"/>
+           </g>
+               <g class="parallax4">
+           <use xlink:href="#gentle-wave" x="50" y="6" fill="#fff"/>  
+           </g>
+           </svg>
+       
+
+        </div>
+    </div>
+    
+{% endblock %}
