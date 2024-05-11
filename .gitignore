@@ -38,3 +38,6 @@ docs/
 
 # Arquivos banco de dados
 *.db
+
+# Video demonstração
+roadmapAlura-demo.mp4
